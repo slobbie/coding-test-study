@@ -9,3 +9,10 @@ function solution(x, n) {
   }
   return stack;
 }
+
+// 다른 사람풀이
+function solution(x, n) {
+  return Array(n)
+    .fill(x)
+    .map((v, i) => (i + 1) * v);
+}
